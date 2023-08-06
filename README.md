@@ -21,19 +21,27 @@
 
 ### LLM模块：
 实现的就是针对不同的大语言模型的api调用的代码实现。目前已经实现的大语言模型包括：
-### ① chatgpt: 
+###  chatgpt: 
 集成了chatgpt 3.5/4 的api接口，使用这个脚本，需要在脚本参数里填写openai的api key, 默认设置的模型是chatgpt-3.5,如果要替换chatgpt4，需要自行修改模型名称；
-### ② chatglm: 
+###  chatglm: 
 集成了对chatglm官方示例的api接口，如果使用chatglm官方的仓库部署的api服务，就可以直接使用，需要配置的内容是，配置部署好的api地址即可；
-### ③ rwkv: 
+###  rwkv: 
 集成了针对rwkv runner开源项目的api接口，因为rwkv runner这个项目的api格式和chatgpt是一样的，如果下载rwkv runner这个项目使用的话，可以使用工具提供的脚本，只需要在api地址参数配置实际的地址就可以了。
 
 ### TTS&&STT模块：
 这个模块实现了对语言模型反馈信息的语音合成功能的代码实现，以及发送信息时，可能用到的语音识别服务相关的代码实现。目前已实现的语音产品包括：
-### ① 微软Azure语音合成以及语音识别服务：
+###  微软Azure语音合成以及语音识别服务：
 如果使用这个服务，需要准备微软Azure的语音服务令牌，自行注册账号，开通服务获得；
-### ② 百度AI的语音合成以及语音识别服务：
+###  百度AI的语音合成以及语音识别服务：
 使用这个服务时，注册百度AI开放平台的账号，开通语音合成、语音识别服务，创建应用获取到相关的密钥，填入相应脚本即可。
+###  OpenAI平台提供的在线Whisper语音识别服务：
+集成了openAI平台的Whisper在线语音识别api，需要使用openai的api key
+
+
+### 角色口型：
+使用了Oculus的Lipsync方案，并集成到了项目包里，可以使用本方案实现windows平台的音频转口型的效果。
+完整的插件地址，可以自行下载：https://developer.oculus.com/downloads/package/oculus-lipsync-unity/
+
 
 ### 2.2 模型如何使用
 
