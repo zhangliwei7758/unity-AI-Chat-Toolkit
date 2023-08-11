@@ -36,6 +36,9 @@
 使用这个服务时，注册百度AI开放平台的账号，开通语音合成、语音识别服务，创建应用获取到相关的密钥，填入相应脚本即可。
 ###  OpenAI平台提供的在线Whisper语音识别服务：
 集成了openAI平台的Whisper在线语音识别api，需要使用openai的api key
+###  提供针对开源的Whisper模型的api集成：
+集成的项目是github上开源项目：https://github.com/ahmetoner/whisper-asr-webservice
+部署这个项目，可使用本模块来调用语音识别的api
 
 
 ### 角色口型：

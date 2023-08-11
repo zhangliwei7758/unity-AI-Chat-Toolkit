@@ -1,5 +1,9 @@
 # 项目更新日志
 
+## 2023.8.11 update
+### 新增功能
+增加了针对whisper-webservice这个项目的api集成代码，部署下面这个项目，可以通过本次更新的代码调用语音识别的api
+https://github.com/ahmetoner/whisper-asr-webservice
 ## 2023.8.6 update
 ### 新增功能
 1、集成了Oculus的口型插件，AI小姐姐语音对话的时候，可以实现对a i u e o五种元音的识别和口型映射了。
