@@ -1,5 +1,19 @@
 # 项目更新日志
 
+## 2023.9.8 update
+### 新增功能
+1、增加百度智能云千帆大模型平台的公共服务模型api支持，包括：
+ERNIE_Bot,
+ERNIE_Bot_turbo,
+BLOOMZ_7B,
+Qianfan_BLOOMZ_7B_compressed,
+ChatGLM2_6B_32K,
+Llama_2_7B_Chat,
+Llama_2_13B_Chat,
+Llama_2_70B_Chat,
+Qianfan_Chinese_Llama_2_7B,
+AquilaChat_7B,
+
 ## 2023.8.22 update
 ### 新增功能
 1、增加针对科大讯飞的语音服务，包括语音识别以及语音合成模块
