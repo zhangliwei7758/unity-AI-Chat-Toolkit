@@ -1,5 +1,11 @@
 # 项目更新日志
 
+## 2023.9.17 update
+### 新增功能
+1、增加语音合成模式选项，可在ChatAgent对象脚本设置，是否通过语音合成
+### 修复缺陷
+1、修复chatgpt-turbo脚本，在调用api时，反馈{"message": "We could not parse the JSON body of your request. (HINT: This likely means you aren't using your HTTP library correctly. The OpenAI API expects a JSON payload, but what was sent was not valid JSON.}的问题
+
 ## 2023.9.8 update
 ### 新增功能
 1、增加百度智能云千帆大模型平台的公共服务模型api支持，包括：
