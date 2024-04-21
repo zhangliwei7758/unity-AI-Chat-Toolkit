@@ -1,5 +1,11 @@
 # 项目更新日志
 
+## 2024.4.22 update
+### 新增功能
+1、新增对GPT-SoVITS项目[GPT-SoVITS-beta0306fix2]版本的API接口对接支持模块，可以实现局域网访问了
+2、更新了gradio api的接口代码，兼容当前版本
+
+
 ## 2024.1.25 update
 ### 新增功能
 1、新增对GPT-SoVITS项目的API接口对接支持模块
