@@ -37,6 +37,8 @@
 集成了智谱AI开放平台下，chatGLM Turbo模型的api支持
 ###  Ollama工具: 
 集成对Ollama部署的本地大模型的API调用支持，可以利用chatOllama模块驱动AI小姐姐聊天
+### DeepSeek: 
+集成对DeepSeek的API调用支持
 
 ### TTS&&STT模块：
 =====================
