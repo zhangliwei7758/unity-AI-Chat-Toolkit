@@ -39,6 +39,8 @@
 集成对Ollama部署的本地大模型的API调用支持，可以利用chatOllama模块驱动AI小姐姐聊天
 ### DeepSeek: 
 集成对DeepSeek的API调用支持
+### 阿里云百炼平台: 
+集成对Qwen通义千问的API调用支持
 
 ### TTS&&STT模块：
 =====================
